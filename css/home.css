@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: white
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px white solid;
+}
+
+@media (max-width: 720px) {
+    h1 {
+        text-align: center;
+        border-bottom: 1px white groove;
+    }
+}
