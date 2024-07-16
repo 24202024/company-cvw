@@ -1,6 +1,6 @@
 body {
     background-color: rgb(20, 20, 20);
-    color: white;
+    color: white
 }
 
 h1 {
@@ -8,13 +8,15 @@ h1 {
     border-bottom: 1px white solid;
 }
 
-@media screen (max-width: 720px) {
+@media screen and (max-width: 720px) {
     body {
-        background-color: rgb(0, 0, 0);
+        background-color: black;
     }
+
     h1 {
         text-align: center;
-        color: brown;
+        font-size: 90px;
         border-bottom: 1px white groove;
+        color: brown;
     }
 }
