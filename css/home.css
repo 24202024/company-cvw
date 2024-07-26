@@ -136,4 +136,28 @@ main {
     }
 }
 
+@media screen and (max-width: 380px) {
+    body {
+        background-color: black;
+    }
+
+    menu {
+        display: flex;
+        top: 20px;
+        width: 89%;
+    }
+    
+    menu ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        align-items: center;
+        margin-left: 4%;
+    }
+    
+    menu ul li {
+        padding-left: 20px;
+    }
+}
+
 
